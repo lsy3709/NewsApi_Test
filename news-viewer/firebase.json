@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site" : "react-project-house",
     "public": "build",
     "ignore": [
       "firebase.json",
