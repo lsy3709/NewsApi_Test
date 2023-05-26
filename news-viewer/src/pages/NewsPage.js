@@ -8,10 +8,10 @@ const NewsPage = ({ match }) => {
   // 카테고리가 선택되지 않았으면 기본값 all로 사용
   const category = params.category || 'all';
 
-  useEffect( () => {
-      const titleElement = document.getElementsByTagName("title")[0];
-      titleElement.innerHTML=`뉴스 -${params.category}`;
-    },[params.category ] );
+  // useEffect( () => {
+  //     const titleElement = document.getElementsByTagName("title")[0];
+  //     titleElement.innerHTML=`뉴스 -${params.category}`;
+  //   },[params.category ] );
 
   return (
     <>
